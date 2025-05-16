@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.18" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\T.Core.Domaine\T.Core.Domaine.csproj" />
+    <ProjectReference Include="..\T.Core.Interfaces\T.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\T.Core.Services\T.Core.Services.csproj" />
+    <ProjectReference Include="..\T.Data\T.Data.csproj" />
+    <ProjectReference Include="..\Test.UI.Console\Test.UI.Console.csproj" />
+  </ItemGroup>
+
+</Project>

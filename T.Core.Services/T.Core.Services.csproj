@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\T.Core.Domaine\T.Core.Domaine.csproj" />
+    <ProjectReference Include="..\T.Core.Interfaces\T.Core.Interfaces.csproj" />
+    <ProjectReference Include="..\T.Data\T.Data.csproj" />
+    <ProjectReference Include="..\Test.UI.Console\Test.UI.Console.csproj" />
+  </ItemGroup>
+
+</Project>
